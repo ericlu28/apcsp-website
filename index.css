@@ -1,0 +1,38 @@
+html{
+font-family: sans-serif;
+}
+#background{
+width: 100%;
+height: 500px;
+border: 2px dotted black;
+}
+#header{
+width: 100%;
+height: 15%;
+background-color: #99ffff;
+display: flex;
+justify-content: center;
+}
+#sidebar{
+width: 20%;
+height: 425px;
+background-color: #31ea78;
+}
+#myphoto{
+width:50%;
+height: 50%;
+}
+#imageplace{
+width: 50%;
+height: 50%;
+}
+#page{
+width: 80%;
+height: 425px;
+background-color: #f25461;
+padding-left: 4%;
+padding-right: 2.5%;
+}
+#mainpart{
+display: flex;
+}
