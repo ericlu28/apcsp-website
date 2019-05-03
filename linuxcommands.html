@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+<p>Return to the home page here: <a href="index.html">HomePage</a></p>
+<h2>Basic Linux Commands</h2>
+
+<table>
+  <tr>
+    <th>Command</th>
+    <th>Implementation</th>
+    <th>Usage</th>
+    <th>Used For</th>
+  </tr>
+  <tr>
+    <td>pwd</td>
+    <td>pwd [OPTION] ...</td>
+    <td>The command pwd is used to know which directory you are in. </td>
+    <td>The response is displayed with a '/' in the front to denote the base linux system.</td>
+  </tr>
+  <tr>
+    <td>ls</td>
+    <td>ls [OPTION] ... [FILE] ...</td>
+    <td>The command ls is used to know what files are in the directory you are currently in.</td>
+    <td>You can see all hidden files by using the option '-a' directly after the 'ls'. </td>
+  </tr>
+  <tr>
+    <td>mkdir</td>
+    <td> mkdir [OPTION] ... DIRECTORY ...</td>
+    <td>Use the mkdir command when you need to create a folder or a directory.</td>
+    <td>if you want to make a directory called 'DIY', then you can type 'mkdir DIY'.</td>
+  </tr>
+  <tr>
+    <td>rm</td>
+    <td> rm [OPTION] ... [FILE] ...</td>
+    <td>Use the rm command to delete files and directories. </td>
+    <td>Use 'rm -r' to delete just the directory.</td>
+  </tr>
+  <tr>
+    <td>touch</td>
+    <td>touch [OPTION] ... FILE ...</td>
+    <td>The touch command is used to create a file.</td>
+    <td> It can be anything, from an empty txt file to an empty zip file. For example, 'touch new.txt'.</td>
+  </tr>
+  <tr>
+    <td>cp</td>
+    <td>cp [OPTION]... [-T] SOURCE DEST
+
+cp [OPTION]... SOURCE... DIRECTORY
+
+cp [OPTION]... -t DIRECTORY SOURCE...
+</td>
+    <td>Use the cp command to copy files through the command line.</td>
+    <td>It takes two arguments: The first is the location of the file to be copied, the second is where to copy.</td>
+  </tr>
+  <tr>
+    <td>mv</td>
+    <td>mv [OPTION]... [-T] SOURCE DEST
+
+mv [OPTION]... SOURCE... DIRECTORY
+
+mv [OPTION]... -t DIRECTORY SOURCE...
+</td>
+    <td>Use the mv command to move files through the command line. We can also use the mv command to rename a file.</td>
+    <td>For example, if we want to rename the file 'text' to 'new', we can use 'mv text new'. It takes two arguments.</td>
+  </tr>
+  <tr>
+    <td>echo</td>
+    <td> echo [SHORT-OPTION]... [STRING]...
+
+echo LONG-OPTION
+</td>
+    <td>The 'echo' command helps us move some data, usually text into a file.</td>
+    <td>If you want to create a new text file you type in, 'echo hello, my name is luke>> new.txt'.</td>
+  </tr>
+  <tr>
+    <td>who</td>
+    <td>who [OPTION]... [ FILE | ARG1 ARG2 ] </td>
+    <td>The 'who' command shows who is currently logged on. </td>
+    <td>If you type in 'who' the terminal will display all users who are logged on.</td>
+  </tr>
+  <tr>
+    <td>clear</td>
+    <td>clear</td>
+    <td>The 'clear' command clears the console.</td>
+    <td>If you type in 'clear' to the console the console will clear.</td>
+  </tr>
+</table>
+
+</body>
+</html>
+
